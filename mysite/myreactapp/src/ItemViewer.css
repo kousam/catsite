@@ -1,0 +1,14 @@
+
+
+.wrapper{
+	width: 880px;
+	
+	display:grid;
+	grid-template-columns: 50% 50%;
+	
+	
+	position: relative;
+	left: 50%;
+	top: 0px;
+	transform: translate(-50%, 0);
+}

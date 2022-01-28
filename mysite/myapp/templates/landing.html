@@ -1,0 +1,76 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    
+    
+</head>
+<body>
+    <div class="top-cont">
+        <header>
+            <div class="home-button-cont">
+				<a class="home-button">
+					WebShop
+				</a>
+            </div>
+                
+        </header>
+            
+    </div>
+    
+	<div class="main-cont">
+	
+		<div class="goto-cont">
+			<form action="http://localhost:8080/api/repopulate/" method="POST">
+				<input class="goto-button" type="submit" value="Repopulate DB">
+				{% csrf_token %}
+				{{ form }}
+
+				</input>
+			</form>
+		</div>
+	
+		<div class="item-cont">
+			<span class="default-text">
+				There are currently
+			</span>
+			
+			<span class="default-text-bold">
+				{{item_count}}
+			</span>
+			
+			<span class="default-text">
+				Items listed on our webshop
+			</span>
+			
+		</div>
+		
+		<div class="terms-cont">
+			<span class="default-text">
+				By proceeding to the webshop you accept the terms and conditions
+			</span>
+		</div>
+		
+		
+		<div class="goto-cont">
+			<button class="goto-button" onClick="location.href='../shop/'">
+				Go to WebShop
+			</button>
+		</div>
+			
+		
+	</div>
+	
+	
+	
+
+
+</body>
+</html>
+    

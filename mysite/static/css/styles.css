@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff5ef;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.main-cont {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 100px;
+	
+	width: 100%;
+	
+	background-color: #ffffff;
+	
+}
+
+.top-cont {
+	margin: 0px;
+    background-color: #000000CC;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	height: 50px;
+    z-index: 1;
+	
+}
+
+
+.top-bar-text{
+	margin: 0px;
+    font-size: 30px;
+    padding-right: 30px;
+    color: #EFEFEF;
+    text-decoration: none;
+	text-align: center;
+	
+}
+
+.home-button-cont{
+	height : 50px;
+	transform: translate(20px, 0);
+}
+
+
+.home-button{
+    font-size: 36px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.home-button:hover{
+    color: #FFFFFF;
+
+}
+
+
+.default-text{
+	font-size:30px;
+    color: #111111;
+    text-decoration: none;
+}
+
+.default-text-bold{
+	font-size: 30px;
+	font-weight: bold;
+    color: #111111;
+    text-decoration: none;
+}
+
+.goto-button{
+	font-size: 30px;
+	height: 80px;
+    width: 300px;
+    line-height: 75px;
+	color: #FFFFFF;
+    background-color: #448ee4;
+	
+	position:relative;
+	
+	border: none;
+    
+    border-radius: 6px;
+	
+}
+
+.goto-button:hover {
+	box-shadow: 2px 2px 5px #000000CC;
+	color: #FFFFFF;
+}
+
+.terms-cont{
+	padding: 20px;
+}
+
+.item-cont{
+	padding: 20px;
+}
+
+.goto-cont {
+	padding: 40px;
+}
+
+
+
+
+
+
