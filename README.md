@@ -1,2 +1,2 @@
 # catsite
- Course project website of cats (Django, React)
+ Course project website of cats that is did not finish (Django, React)
